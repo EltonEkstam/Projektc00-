@@ -1,0 +1,22 @@
+.content-top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: top;
+    flex-wrap: wrap;
+}
+.title {
+    font-size: 30px;
+    text-align: center;
+    color: #800000;
+    width: 45%;
+    background-color: black;
+    height: 20vh;
+}
+.text {
+    width: 40%;
+    height: 90vh;
+}
+.picture {
+    display: flex;
+    justify-content: flex-start;
+}

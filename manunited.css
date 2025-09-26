@@ -1,0 +1,42 @@
+body {
+    background-image:url(man.u.logga.jpg) ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.top {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(255, 0, 0);
+    height:15% ;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 85vh;
+    width: 100%;
+    
+}
+.content-left, .content-middle, .content-right, a {
+    display: flex;
+    height: 40vh;
+    width: 30%;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    
+}   
+.logo {
+    height: 80%;
+}
+p:hover {
+    border-radius: 20px;
+    transition: 0.5s;
+    font-size: 50px;
+    text-decoration: underline;
+}
